@@ -138,6 +138,16 @@ streamlit run app.py
 
 ---
 
+## 🌐 Live Demo
+
+**Streamlit Dashboard:**  
+https://uzmafarzeen-end-to-end-sales-forecasting-demand-inte-app-gag7fr.streamlit.app
+
+**GitHub Repository:**  
+https://github.com/UZMAFARZEEN/End-to-End-Sales-Forecasting-Demand-Intelligence-System
+
+---
+
 #  Key Outcomes
 
 - Forecasted future sales using three different forecasting models.
