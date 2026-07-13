@@ -138,7 +138,7 @@ streamlit run app.py
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 **Streamlit Dashboard:**  
 https://uzmafarzeen-end-to-end-sales-forecasting-demand-inte-app-gag7fr.streamlit.app
