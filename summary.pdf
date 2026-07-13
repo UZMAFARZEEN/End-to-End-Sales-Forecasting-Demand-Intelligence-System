@@ -1,0 +1,51 @@
+Executive Business Report
+End-to-End Sales Forecasting & Demand Intelligence System
+Executive Summary
+
+This project was developed to help retail businesses improve inventory planning and demand forecasting using historical sales data. Multiple forecasting techniques were evaluated to predict future sales trends, detect unusual sales behavior, and segment products based on demand characteristics. The system also includes an interactive Streamlit dashboard that enables business users to explore sales trends, forecasts, anomalies, and product demand clusters without requiring technical knowledge. The results provide actionable insights that support data-driven inventory and supply chain decisions.
+
+Key Findings from Data Exploration and Forecasting
+
+Historical sales data showed a consistent upward growth trend over the four-year period, indicating increasing business performance. Seasonal analysis revealed recurring sales peaks during specific months each year, confirming strong seasonal purchasing behavior.
+
+Three forecasting models were developed and compared:
+
+SARIMA
+Facebook Prophet
+XGBoost Regressor
+
+Based on evaluation metrics such as MAE, RMSE, and MAPE, XGBoost achieved the highest forecasting accuracy and was selected as the production model. The model successfully captured both long-term trends and nonlinear sales patterns.
+
+The three-month sales forecast indicates that demand is expected to remain stable with moderate growth, enabling better inventory planning and procurement decisions.
+
+Anomaly Detection
+
+Two anomaly detection techniques were applied:
+
+Isolation Forest
+Z-Score Method
+
+Both methods identified unusual sales spikes and sudden sales drops. Several anomalies coincided with seasonal promotions and high-demand periods, while others may indicate supply chain disruptions or unexpected market changes. Monitoring these anomalies can help management quickly investigate abnormal business events and improve operational planning.
+
+Product Demand Segmentation
+
+K-Means clustering grouped product sub-categories into four meaningful demand segments:
+
+High Volume, Stable Demand
+Growing Demand
+Low Volume, High Volatility
+Declining Demand
+
+This segmentation enables more effective inventory strategies. High-demand products should maintain higher stock levels, while volatile and declining products should be monitored carefully to minimize excess inventory.
+
+Business Recommendations
+Continue using the XGBoost forecasting model for demand planning, as it demonstrated the highest prediction accuracy among all evaluated models.
+Increase inventory levels for products classified under the "High Volume, Stable Demand" and "Growing Demand" clusters to reduce stock-out risk during peak sales periods.
+Establish regular monitoring of anomaly reports to quickly identify unusual sales behavior, promotional impacts, or operational issues that require management attention.
+Business Risk / Limitation
+
+The forecasting models rely entirely on historical sales data and do not account for unexpected external factors such as economic changes, competitor actions, policy changes, natural disasters, or sudden shifts in customer behavior. Future model performance can be further improved by incorporating external business variables such as promotions, holidays, marketing campaigns, and economic indicators.
+
+Conclusion
+
+The developed Sales Forecasting & Demand Intelligence System demonstrates how machine learning and time-series analysis can support business decision-making. By combining accurate forecasting, anomaly detection, product segmentation, and an interactive dashboard, the project provides valuable insights for inventory optimization, demand planning, and strategic business growth.
